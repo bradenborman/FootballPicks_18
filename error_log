@@ -1,0 +1,106 @@
+[02-Apr-2018 19:16:54 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:16:54 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:16:54 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:16:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 20
+[02-Apr-2018 19:17:24 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 22
+[02-Apr-2018 19:17:32 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:32 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 20
+[02-Apr-2018 19:17:46 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:46 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:46 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:46 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 20
+[02-Apr-2018 19:17:54 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:54 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:54 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 20
+[02-Apr-2018 19:17:55 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:55 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 18
+[02-Apr-2018 19:17:55 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 20
+[02-Apr-2018 19:18:15 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 19
+[02-Apr-2018 19:18:15 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 19
+[02-Apr-2018 19:18:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 19
+[02-Apr-2018 19:18:15 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 21
+[02-Apr-2018 19:20:21 UTC] PHP Notice:  Undefined variable: result in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:20:21 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:20:37 UTC] PHP Notice:  Undefined variable: result in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:20:37 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:20:47 UTC] PHP Notice:  Undefined variable: result in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:20:47 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:21:49 UTC] PHP Notice:  Undefined variable: result in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:21:49 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:22:43 UTC] PHP Notice:  Undefined variable: result in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:22:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 28
+[02-Apr-2018 19:24:58 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/bradenborman/public_html/picks18/displayLeaderboard.php on line 21
+[10-Jun-2018 21:49:31 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:49:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:49:31 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 74
+[10-Jun-2018 21:49:31 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:49:31 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:49:31 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:49:36 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:49:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:49:36 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 74
+[10-Jun-2018 21:49:36 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:49:36 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:49:36 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:50:26 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:50:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:50:26 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 74
+[10-Jun-2018 21:50:26 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:50:26 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:50:26 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:50:48 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:50:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:50:48 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 21
+[10-Jun-2018 21:50:48 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:50:48 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:50:48 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:50:48 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 78
+[10-Jun-2018 21:51:32 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:51:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:51:32 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:51:32 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:51:32 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:51:32 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 78
+[10-Jun-2018 21:52:40 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 22
+[10-Jun-2018 21:52:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 22
+[10-Jun-2018 21:52:40 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 81
+[10-Jun-2018 21:52:40 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 82
+[10-Jun-2018 21:52:40 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 83
+[10-Jun-2018 21:52:40 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 84
+[10-Jun-2018 21:52:58 UTC] PHP Notice:  Undefined variable: AllGames in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:52:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bradenborman/public_html/picks18/index.php on line 16
+[10-Jun-2018 21:52:58 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:52:58 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:52:58 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:52:58 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 78
+[10-Jun-2018 21:53:09 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 75
+[10-Jun-2018 21:53:09 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 76
+[10-Jun-2018 21:53:09 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 77
+[10-Jun-2018 21:53:09 UTC] PHP Notice:  Undefined variable: CurrentWeek in /home/bradenborman/public_html/picks18/index.php on line 78
+[10-Jun-2018 21:59:59 UTC] PHP Parse error:  syntax error, unexpected 'Please' (T_STRING), expecting ',' or ';' in /home/bradenborman/public_html/picks18/index.php on line 61
+[10-Jun-2018 22:12:01 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/bradenborman/public_html/picks18/index.php on line 20
+[10-Jun-2018 22:17:07 UTC] PHP Notice:  Use of undefined constant s - assumed 's' in /home/bradenborman/public_html/picks18/index.php on line 58
+[11-Jun-2018 23:12:41 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:12:43 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:12:47 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:13:46 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:14:14 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:14:27 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:14:34 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:14:54 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:14:55 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:14:57 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:15:01 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:17:02 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:17:16 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:17:22 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:19:41 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:19:42 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:19:55 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:20:01 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:20:08 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[11-Jun-2018 23:20:11 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21

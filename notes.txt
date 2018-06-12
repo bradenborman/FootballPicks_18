@@ -1,0 +1,8 @@
+
+		
+			Notes and things to not forget
+			
+			//
+				Change form action on page
+				in the script pass week as variable so that each time week is changed new page is loaded and can be selected 
+			//

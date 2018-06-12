@@ -1,0 +1,232 @@
+.Falcons {
+	background-image: url("logos/atllogo.jpg");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+.Bears {
+	background-image: url("logos/bearslogo.jpg");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Bills {
+    background-image: url("logos/billslogo.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Broncos {
+    background-image: url("logos/broncos.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Browns {
+    background-image: url("logos/brownslogo.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Buccaneers{
+    background-image: url("logos/bucs.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Bengals {
+    background-image: url("logos/cinlogo.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Cardinals {
+    background-image: url("logos/cards.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Chargers{
+    background-image: url("logos/chargers.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Chiefs {
+	background-image: url("logos/chiefs.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+
+.Colts {
+	background-image: url("logos/colts.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Cowboys {
+    background-image: url("logos/cowboys.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Dolphins {
+	background-image: url("logos/miami.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.Eagles {
+    background-image: url("logos/eaglelogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Jaguars {
+	background-image: url("logos/jagslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Jets {
+	background-image: url("logos/jets.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.Giants {
+    background-image: url("logos/giants.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.Lions {
+	background-image: url("logos/lionslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Packers {
+    background-image: url("logos/packerslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Panthers {
+    background-image: url("logos/panthers.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Patriots {
+    background-image: url("logos/patlogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Raiders {
+    background-image: url("logos/raiders.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Rams {
+	background-image: url("logos/ramslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Ravens {
+	background-image: url("logos/ravens.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Redskins {
+    background-image: url("logos/redskinslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Seahawks {
+    background-image: url("logos/sealogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.SF49ers {
+    background-image: url("logos/sflogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Steelers {
+    background-image: url("logos/steelerslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Titians {
+    background-image: url("logos/tennlogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Texans {
+    background-image: url("logos/texlogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Saints {
+	background-image: url("logos/no.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+
+.Jaguars {
+	background-image: url("logos/jagslogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
