@@ -6,6 +6,7 @@ Make display leaderboard script
 Make admin page
 Make grading scripts
 Way to lock out games
+Scroll spy to track week selcted or javascript to highltight week winner from dropdown
 
 
 //when modal opens
