@@ -6,3 +6,14 @@ Make display leaderboard script
 Make admin page
 Make grading scripts
 Way to lock out games
+
+
+//when modal opens
+$('#yourModal').on('shown.bs.modal', function (e) {
+  $("#pageContent").css({ opacity: 0.5 });
+})
+
+//when modal closes
+$('#yourModal').on('hidden.bs.modal', function (e) {
+  $("#pageContent").css({ opacity: 1 });
+})
