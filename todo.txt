@@ -18,3 +18,21 @@ $('#yourModal').on('shown.bs.modal', function (e) {
 $('#yourModal').on('hidden.bs.modal', function (e) {
   $("#pageContent").css({ opacity: 1 });
 })
+
+
+*********************************************************
+PASSWORD STORAGE 
+
+
+$password = "asdf123";
+$secret = password_hash($password, PASSWORD_BCRYPT);
+//Store $secret in database
+
+if (password_verify($password_entered, $stored_secret))
+{ 
+  //Password OK
+}
+else
+{
+  //Password not OK
+}
