@@ -1,0 +1,122 @@
+
+.modal.fade.in .lab-modal-body {
+  bottom: 0;
+  opacity: 1;
+  z
+}
+
+.lab-modal-body h1 {
+  font-size: 4rem;
+}
+
+.lab-modal-body p {
+  margin: 0 0 1.62rem 0;
+  line-height: 1.62;
+  font-weight: 300;
+  font-size: 1.62rem;
+  color: #666;
+}
+
+.lab-modal-body {
+  position: relative;
+  bottom: -750px;
+  margin: 150px auto 0;
+  padding: 70px;
+  width: 55%;
+  height: auto;
+  background-color: rgb(248, 250, 247);
+  border: 1px solid #BEBEBE;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  border: 2px solid black;
+}
+
+.close {
+  margin-top: -20px;
+  margin-right: -20px;
+  text-shadow: 0 1px 0 #ffffff;
+  font-size: 2em;
+}
+
+.popup-button {
+  margin-top: 70px;
+}
+
+.help {
+	margin-bottom: 40px;
+}
+
+.panel-heading {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#clearmodel {
+	width: 100%;
+	padding: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #b1b1b1;
+}
+
+#clearmodel:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+ #submitNewUser {
+   	width: 100%;
+	padding: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #b1b1b1;
+   }
+
+#submitNewUser:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .lab-modal-body {
+  	min-width: 95%;
+  	background-color: rgb(248, 250, 247);
+  	padding: 15px;
+  	padding-top: 20px;
+   }
+   
+   
+   #submitNewUser {
+   margin-top: 15px;
+   margin-bottom: 15px;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

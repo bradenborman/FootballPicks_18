@@ -17,7 +17,10 @@
 	if (isset($_GET['user']))
 		$Username = $_GET['user'];
 	
+	if( isset($_COOKIE["username"]))
+		$Username = $_COOKIE["username"];
 	
+	echo  $Username;
 	
 	$TeamPicked = trim($TeamPicked);	
 	$USERID = trim($USERID);
@@ -28,9 +31,10 @@
 			$USERID = $row['User_ID'];
 
 	
-	echo $Username;
+	
 	echo "<br>";
-	echo $USERID;
+	echo  $USERID;
+	echo "<br>";
 	$wasGameONEpicked = false;
 	$VerifyAdd = true;
 
@@ -54,7 +58,7 @@
 
 		}
 																//WILL NEED TO ADD USER ID HERE TOO
-	$result = "SELECT * FROM `Pick_History` WHERE Game_Id = $GAMEID";	
+	$result = "SELECT * FROM `Pick_History` WHERE Game_Id = $GAMEID and User_ID = $USERID";	
 	$CheckSQL= $conn->query($result);
 
 	while ($row = mysqli_fetch_array($CheckSQL))
@@ -69,20 +73,27 @@
 		} 
 	
 
+	echo  'Game: ' .$GAMEID. '';
+	echo  '<br>';
+
 	if($isThere)
 	{
 		$sqlPick= "UPDATE `football_picks`.`Pick_History` SET Picked = '$TeamPicked' WHERE `Game_ID` = $GAMEID AND `User_ID` = $USERID";	
 		if (!mysqli_query($conn, $sqlPick))
   			echo("Error description: " . mysqli_error($conn));
+  			
+  			echo  'updated pick';
 	}
 	
 	else {
 		$sql = "INSERT INTO `football_picks`.`Pick_History` (`Pick_ID`, `Game_ID`, `Picked`, `Time_Picked`, `User_ID`) VALUES (NULL, '$GAMEID', '$TeamPicked', CURRENT_TIMESTAMP, '$USERID')";
 		if (!mysqli_query($conn, $sql))
   			echo("Error description: " . mysqli_error($conn));
+  			
+  			echo  'new pick';
 	}	
 
-
+echo  '<br>';
 
 
 
@@ -93,10 +104,14 @@
 			if($wasGameONEpicked)
 			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team1_PickedCount` = Game_Team1_PickedCount + '1', `Game_Team2_PickedCount` = Game_Team2_PickedCount + '-1'  WHERE `Games`.`Game_ID` = $GAMEID";
+				echo  'already there and picked game 1';
+				echo  '<br>';
 			}
 			else
 			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team2_PickedCount` = Game_Team2_PickedCount + '1', `Game_Team1_PickedCount` = Game_Team1_PickedCount + '-1'  WHERE `Games`.`Game_ID` = $GAMEID";
+				echo  'already there and picked game 2';
+				echo  '<br>';
 			}			
 		}
 		else {
@@ -104,19 +119,23 @@
 			if($wasGameONEpicked)
 			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team1_PickedCount` = Game_Team1_PickedCount + '1'  WHERE `Games`.`Game_ID` = $GAMEID";
+				echo  'not there and picked game 1';
+				echo  '<br>';
 			}
 			else
 			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team2_PickedCount` = Game_Team2_PickedCount + '1' WHERE `Games`.`Game_ID` = $GAMEID";
+				echo  'not there and picked game 2';
+				echo  '<br>';
 			}
 		}
-
+		if (!mysqli_query($conn, $sqlstatment))
+  		 echo("Error description: " . mysqli_error($conn));
+ 
 	}
 
 	
-	if (!mysqli_query($conn, $sqlstatment))
-  		 echo("Error description: " . mysqli_error($conn));
- 
+	
 
 
 /*

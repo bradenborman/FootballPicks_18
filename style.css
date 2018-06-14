@@ -13,6 +13,14 @@ input[type=text] {
 	color: black;
 }
 
+input[type=email] {
+	color: black;
+}
+
+
+input[type=password] {
+	color: black;
+}
 
 
 header {
@@ -108,6 +116,8 @@ header h2 {
 
 
 
+
+
 #PICKEMGAME_INFO {
 	width: 93%;
 	margin: auto;
@@ -121,6 +131,7 @@ header h2 {
 	padding: 5px;
 	border-radius: 10px;
 	letter-spacing: 2px;
+	
 }
 
 
@@ -189,7 +200,7 @@ margin-bottom: 15px;
 	border-radius: 20px;
 	border: 2px solid black;
 	-webkit-transition: transform 1s; /* Safari */
-    transition: transform 1s;
+    	transition: transform 1s;
 }
 
 .unpicked {
@@ -239,7 +250,7 @@ margin-bottom: 15px;
 	background: linear-gradient(to top left, #e8e8e8 0%, #c0c0c0 100%);
 	color: black;
 	 font-family: 'IBM Plex Serif';
-	width: 85%;
+	width: 85%; 
 	margin: auto;
 	padding: 30px;
 	padding-top: 10px;
@@ -248,7 +259,8 @@ margin-bottom: 15px;
 	min-height: 200px;
 	border-radius: 55px;
 	font-size: 1.4em;
-	text-align: left;	
+	text-align: left;
+	
 }
 
 
@@ -284,7 +296,8 @@ header {
 margin-top: 10px;
 }
 
-header h2 {
+header h2 {	
+	margin-bottom: 0px;
 	font-size: 1.4em;
 }
 
@@ -326,6 +339,13 @@ header h2 {
 	border-radius: 55px;
 	font-size: 1.2em;
 	text-align: left;
+}
+
+
+.dropdown {
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 

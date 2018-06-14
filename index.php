@@ -27,13 +27,15 @@ if ($conn->connect_error) {
   <title>Pick'em</title><meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Ref section --><link rel="stylesheet" type="text/css" href="style.css"><link rel="stylesheet" type="text/css" href="logo.css"><link rel="shortcut icon" href="images/football.png" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href='https://fonts.googleapis.com/css?family=Numans' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=IBM Plex Serif' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="modal.css"><script src="modal.js" type="text/javascript"></script>
+
 </head>
 
 <body style="background-color: #4B8241;">
 <header>
 <div class="container">
 	<div id="TOPHEADER">
-	<h2>Borman Pickem Challenge</h2>
+	<h2 id="h2tag">Borman Pickem Challenge</h2>
   <div class="dropdown" style="float:right;">
   <button class="dropbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
   <div class="dropdown-content">
@@ -48,8 +50,9 @@ if ($conn->connect_error) {
 			
 			<div class="row">
 				<form action="Php_Scripts/login.php" method="post">
-  					<div class="col-lg-5"><input type="text" placeholder="username" name="Username"></div>   <div class="col-lg-5"><input type="text" placeholder="Pin" name="password"></div>
-  					<div class="col-lg-2 pull-right"><input class="btn-success" type="submit"></div> 
+  					<input type="email" placeholder="email" name="email">  
+  					<input type="text" placeholder="Pin" maxlength="4" name="password">
+  					<input id="loginbtn" class="btn-success" type="submit">
   				</form>
 			</div>
 			
@@ -59,7 +62,7 @@ if ($conn->connect_error) {
 					
 			<div class="links">
 					<a href="#">Leaderboard</a>
-					<a href="#">Comments</a>
+					<a href="#" data-toggle="modal" data-target="#lab-slide-bottom-popup">New User</a>
 					<?php if( isset($_COOKIE["username"])) echo '<a href="Php_Scripts/logout.php">Log out</a>';  ?>
 			</div>	
 </div>
@@ -99,9 +102,9 @@ if ($conn->connect_error) {
 	
 	<!-- End of col-7 -->
 	
-	<div class="col-md-5  text-center"><!--FORM AREA-->
+	<div class="col-md-5  text-center" style="position: sticky; top: 230px;"><!--FORM AREA-->
 		
-			<div id="Weekly_highscores">
+			<div  id="Weekly_highscores">
 				<h2 style="text-align: center;">Weekly Winners</h2>
 					<div class="row">
 						<div class="col-xs-12"> 
@@ -131,9 +134,84 @@ if ($conn->connect_error) {
 	</div>
 </div>
 
+<!-- MODAL CONTENT SAMPLE STARTS HERE -->
+<div class="modal fade" id="lab-slide-bottom-popup" data-keyboard="false" data-backdrop="false">
+  <div class="lab-modal-body"> 
+  
+  		<h1>Create User</h1>
+  		<div class="well">
+		<div class="row">
+  			<div class="col-sm-6"><b>First Name: </b><input type="text" class="form-control" id="firstName"></div>
+  			<div class="col-sm-6"><b>Last Name: </b><input type="text"  class="form-control" id="lastName"></div>
+  		
+		</div>
+		<div class="row">
+  			<div class="col-sm-5"><b>Email: </b><input type="email" class="form-control" id="newEmail"></div>
+  			<div class="col-sm-2"><b>Pin #: </b><input type="password" maxlength="4" class="form-control" id="newpin"></div>
+  			<div class="col-sm-5"><b>Password Hint:</b> <input type="text" class="form-control" id="hint"></div>
+		</div>
+		<br>
+		<div class="row">
+  			<div class="col-sm-3"><button id="submitNewUser" type="submit" >Create</button></div>
+  			<div class="col-sm-3"><button id="clearmodel" type="button" data-dismiss="modal">Close</button></div>		
+		</div>
+  	</div>
+<br><br> 
+<div class="panel-group"> <h1>Helpful Hints</h1>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1"><span class="glyphicon glyphicon-asterisk"></span>  How to play</a>
+        </h2>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+ <div class="panel-body"><p><b>Welcome to Pick the Upset Challenge 2018.</b> This Challenge will be active throughout the 2018-2019 NFL Season and each week, the user with the highest score will receive a price along with the grand champion after week 17. Each correctly picked game will result in a point. However, if the game qualifies as an upset, 3 points will be awarded if the lessor picked team won. A team qualifies if more less than 33.4% of users have picked them to win; nothing to do with point spread or forecast. Simple enough right? The only rule, picks must be made before kickoff on sunday for the week.</p></div>
+      </div>
+    </div>
+    
+ <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2"><span class="glyphicon glyphicon-asterisk"></span>  Picking</a>
+        </h2>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+ <div class="panel-body"><p>Whichever logo is twice as big as the corresponding partner is the team you have picked for the current matchup. If the two appear to be equal in size, you have not made a pick for this game.</p></div>
+      </div>
+ </div>
+ <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3"><span class="glyphicon glyphicon-floppy-saved"></span> Saving Picks</a>
+        </h2>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+ <div class="panel-body"><p>If you are a returning user from last year, saving has been revamped majorly! Simply touching the team you want to pick is all that is required. From there a call to the database is made with all the info. The data is returned back and the percentages are up to date just like that.</p></div>
+      </div>
+ </div>
+ <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4"><span class="glyphicon glyphicon-user"></span> Log In</a>
+        </h2>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+ <div class="panel-body"><p>Another huge upgrade this year, the ability to stay logged in week to week! Just make sure cookies are enabled. If you can't remember you login, you may hit the password reminder at the bottom of the page. I do not have a well thoughtout process for user helping. Please remember the 4 didget pin. Make it all 0's if you have to. Emails will only be used if you win and I send the giftcard info via the info provided</p></div>
+      </div>
+ </div>
+</div>
+	
+	
+  </div>
+  <!-- /.modal-body -->
+</div>
+<!-- /.modal -->
+<!-- END MODAL CONTENT SAMPLE -->
+
 
 <footer></footer>
 <?php if( isset($_COOKIE["username"])) echo '<script src="script.js" type="text/javascript"></script>';  ?>
+
 
 
 
@@ -159,7 +237,17 @@ function loadGames() {
     
 }
 
-setInterval(function(){ loadGames() }, 7000);
+$(window).scroll(function (event) {
+    if($(window).scrollTop() > 250) {
+    	$("#h2tag").slideUp(700)
+    	$(".dropdown").slideUp(700)
+    }
+    if($(window).scrollTop() == 0) {
+    	$("#h2tag").slideDown(700)
+    	$(".dropdown").slideDown(700)
+    }		
+    	
+});
 </script>
 
 
