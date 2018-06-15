@@ -8,28 +8,36 @@ $('body').on('click','.team',function(){
   /***************************************/
      
      
-     var Match = $(this).parents(".GAME"); 
-      var one = Match.find(".team").eq(0)
-      var two = Match.find(".team").eq(1)
+     if($(this).parents(".GAME").hasClass("LOCKED"))
+     {
      
-     
-      if(one.hasClass("unpicked") && two.hasClass("unpicked"))
-      {
-      	$(this).addClass("picked")
-	$(this).removeClass("unpicked")
      }
+     else
+     {
+     	var Match = $(this).parents(".GAME"); 
+     	 var one = Match.find(".team").eq(0)
+      	var two = Match.find(".team").eq(1)
      
-     else {
+     
+     	 if(one.hasClass("unpicked") && two.hasClass("unpicked"))
+     	 {
+      		$(this).addClass("picked")
+		$(this).removeClass("unpicked")
+     	}
+     
+     	else {
      		if($(this).hasClass("unpicked"))
     		 {
      			 var Match = $(this).parents(".GAME"); 
     			 Match.find(".team").toggleClass("unpicked");
      		 }
-     }
+     	}
 
  
      
      PickGame(team)
+     
+     }
 }); 
 
 

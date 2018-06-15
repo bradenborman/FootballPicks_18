@@ -40,7 +40,7 @@ if ($conn->connect_error) {
   <button class="dropbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
   <div class="dropdown-content">
     <a href="#">Leaderboard</a>
-	<a href="#">Comments</a><hr>
+	<a href="#" data-toggle="modal" data-target="#lab-slide-bottom-popup">New User</a>
 	<?php if( isset($_COOKIE["username"])) echo '<a href="Php_Scripts/logout.php">Log out</a>';  ?>
   </div>
 </div>
@@ -134,34 +134,23 @@ if ($conn->connect_error) {
 	</div>
 </div>
 
+
+
+
 <!-- MODAL CONTENT SAMPLE STARTS HERE -->
 <div class="modal fade" id="lab-slide-bottom-popup" data-keyboard="false" data-backdrop="false">
   <div class="lab-modal-body"> 
   
-  		<h1>Create User</h1>
-  		<div class="well">
-		<div class="row">
-  			<div class="col-sm-6"><b>First Name: </b><input type="text" class="form-control" id="firstName"></div>
-  			<div class="col-sm-6"><b>Last Name: </b><input type="text"  class="form-control" id="lastName"></div>
-  		
-		</div>
-		<div class="row">
-  			<div class="col-sm-5"><b>Email: </b><input type="email" class="form-control" id="newEmail"></div>
-  			<div class="col-sm-2"><b>Pin #: </b><input type="password" maxlength="4" class="form-control" id="newpin"></div>
-  			<div class="col-sm-5"><b>Password Hint:</b> <input type="text" class="form-control" id="hint"></div>
-		</div>
-		<br>
-		<div class="row">
-  			<div class="col-sm-3"><button id="submitNewUser" type="submit" >Create</button></div>
-  			<div class="col-sm-3"><button id="clearmodel" type="button" data-dismiss="modal">Close</button></div>		
-		</div>
-  	</div>
-<br><br> 
-<div class="panel-group"> <h1>Helpful Hints</h1>
-    <div class="panel panel-default">
+  
+  <div class="row">
+  	<div class="col-md-6">
+  
+  
+<div class="panel-group"><h1>Quick Help</h1>
+    <div class="panel panel-primary">
       <div class="panel-heading">
         <h2 class="panel-title">
-          <a data-toggle="collapse" href="#collapse1"><span class="glyphicon glyphicon-asterisk"></span>  How to play</a>
+          <a data-toggle="collapse" href="#collapse1">How to play</a>
         </h2>
       </div>
       <div id="collapse1" class="panel-collapse collapse">
@@ -169,30 +158,30 @@ if ($conn->connect_error) {
       </div>
     </div>
     
- <div class="panel panel-default">
+ <div class="panel panel-primary">
       <div class="panel-heading">
         <h2 class="panel-title">
-          <a data-toggle="collapse" href="#collapse2"><span class="glyphicon glyphicon-asterisk"></span>  Picking</a>
+          <a data-toggle="collapse" href="#collapse2">Picking</a>
         </h2>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
  <div class="panel-body"><p>Whichever logo is twice as big as the corresponding partner is the team you have picked for the current matchup. If the two appear to be equal in size, you have not made a pick for this game.</p></div>
       </div>
  </div>
- <div class="panel panel-default">
+ <div class="panel panel-primary">
       <div class="panel-heading">
         <h2 class="panel-title">
-          <a data-toggle="collapse" href="#collapse3"><span class="glyphicon glyphicon-floppy-saved"></span> Saving Picks</a>
+          <a data-toggle="collapse" href="#collapse3">Saving Picks</a>
         </h2>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
  <div class="panel-body"><p>If you are a returning user from last year, saving has been revamped majorly! Simply touching the team you want to pick is all that is required. From there a call to the database is made with all the info. The data is returned back and the percentages are up to date just like that.</p></div>
       </div>
  </div>
- <div class="panel panel-default">
+ <div class="panel panel-primary">
       <div class="panel-heading">
         <h2 class="panel-title">
-          <a data-toggle="collapse" href="#collapse4"><span class="glyphicon glyphicon-user"></span> Log In</a>
+          <a data-toggle="collapse" href="#collapse4">Log In</a>
         </h2>
       </div>
       <div id="collapse4" class="panel-collapse collapse">
@@ -201,12 +190,47 @@ if ($conn->connect_error) {
  </div>
 </div>
 	
+	</div>
+	<div class="col-md-6 well" >
+	
+	<form action="Php_Scripts/createUser.php" method="post">
+	<h1>Create User</h1>
+		<div class="row">
+  			<div class="col-sm-6"><b>First Name: </b><input type="text" name="fname" class="form-control" id="firstName"></div>
+  			<div class="col-sm-6"><b>Last Name: </b><input type="text"  name="lname" class="form-control" id="lastName"></div>
+  		
+		</div>
+		<div class="row">
+  			<div class="col-sm-9"><b>Email: </b><input type="email" name="email" class="form-control" id="newEmail"></div>
+  			<div class="col-sm-3"><b>Pin #: </b><input type="password" name="pin" maxlength="4" class="form-control" id="newpin"></div> 			
+		</div>
+		<div class="row">
+			<div class="col-sm-12"><b>Password Hint:</b> <input type="text" name="hint" class="form-control" id="hint"></div>
+		</div>
+		<br>
+		<div class="row">
+  			<div class="col-sm-3"><button id="submitNewUser" type="submit" >Create</button></div>
+  			<div class="col-sm-3"><button id="clearmodel"  type="button" data-dismiss="modal">Close</button></div>		
+		</div>
+	</form>
+	
+	
+	</div>	
+ </div> <!-- ROW -->
+	
+	
 	
   </div>
   <!-- /.modal-body -->
 </div>
 <!-- /.modal -->
 <!-- END MODAL CONTENT SAMPLE -->
+
+
+
+
+
+
 
 
 <footer></footer>

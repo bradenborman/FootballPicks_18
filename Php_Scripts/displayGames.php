@@ -9,12 +9,24 @@
 	if (isset($_GET['week']))
 		$weekSelected = $_GET['week'];
 	
+		
+		/**See if week is locked ***/
+		
+	$x = 0;	
+	$weekQ = "SELECT * FROM `Game_Settings`";	
+	$WeekisLockout = $conn->query($weekQ);	
+	
+	while ($row = mysqli_fetch_array($WeekisLockout))
+	{
+		 if($row[$weekSelected + 2] == true)
+		 	$isLocked = true;
+	}
+	
 	
 	if( isset($_COOKIE["username"]))
 	$Username = $_COOKIE["username"];
 	
 
-	
 	$sqlUser = "SELECT * FROM `User` WHERE Username = '$Username'";	
 	$User = $conn->query($sqlUser);	
 	while ($row = mysqli_fetch_array($User))
@@ -30,7 +42,6 @@
 		while ($row = mysqli_fetch_array($AllGames))
 		{
 			
-						
 			
 			$isUpset = false;
 			$day = $row['Game_Day'];
@@ -48,8 +59,12 @@
 			$didPickedTeamOne = ($row['Picked'] == $Team1 && $row['User_ID'] == $USERID);
 			$didPickedTeamTwo = ($row['Picked'] == $Team2 && $row['User_ID'] == $USERID);
 			
-				      
-			echo '<div class="row GAME">';	
+			
+			if($isLocked)
+				echo '<div class="row GAME LOCKED">';	
+			else
+				echo '<div class="row GAME">';
+			
 			echo '<div class="row GameINFO">';
 			echo ''.$row['Game_Team1'].' vs '.$row['Game_Team2'].'';
 			echo '</div>		';
