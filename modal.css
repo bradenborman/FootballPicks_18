@@ -1,3 +1,8 @@
+.modal {
+    background-image:url('images/cardboard.jpg');
+    background-size:cover;
+}
+
 
 .modal.fade.in .lab-modal-body {
   bottom: 0;
@@ -7,6 +12,10 @@
 
 .lab-modal-body h1 {
   font-size: 4rem;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: 'Seymour One';
+  color: red;
 }
 
 .lab-modal-body p {
@@ -23,15 +32,16 @@
   margin: 150px auto 0;
   padding: 70px;
   width: 55%;
+  max-width: 750px;
   height: auto;
-  background-color: rgb(248, 250, 247);
+  background-color: #F5F5F5;
   border: 1px solid #BEBEBE;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
   -o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
   transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-  border: 2px solid black;
+  border-radius: 55px;
 }
 
 .close {
@@ -81,20 +91,36 @@
 }
 
 
+.panel-group h2 {
+	font-size: 1.3em;
+}
+
 
 
 @media only screen and (max-width: 600px) {
     .lab-modal-body {
   	min-width: 95%;
   	background-color: rgb(248, 250, 247);
-  	padding: 15px;
+  	padding: 45px;
   	padding-top: 20px;
+  	margin: auto;
+  	margin-top: 35px;
+ 	
    }
    
+   .lab-modal-body h1 {
+ 	text-align: center;
+ 	font-size: 1.6em;	
+   }
    
    #submitNewUser {
    margin-top: 15px;
    margin-bottom: 15px;
+   }
+   
+   
+   .lab-modal-body input {
+   margin-bottom: 10px;
    }
    
 }

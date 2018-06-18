@@ -12,16 +12,24 @@
 		$password = $_POST["password"];
 	
 	
-	$login = "SELECT * FROM User WHERE Username = '$email' and password = '$password'";	
+
+	
+	
+	
+	$login = "SELECT * FROM User WHERE Username = '$email'";	
 	$CheckSQL= $conn->query($login);
 
 	while ($row = mysqli_fetch_array($CheckSQL))
 		{
 			if($row['Username'] == $email)
 			{
-				setcookie(username, $email, time() + (86400 * 30), "/");
+				if(password_verify($password, $row['password']))
+				
+				{
+				setcookie(username, $email, time() + (365 * 24 * 60 * 60), "/");
 				header('Location: http://gokusama.com/picks18/');
 				exit();
+				}
 			}
 		} 
 	
