@@ -59,14 +59,28 @@
 			$didPickedTeamOne = ($row['Picked'] == $Team1 && $row['User_ID'] == $USERID);
 			$didPickedTeamTwo = ($row['Picked'] == $Team2 && $row['User_ID'] == $USERID);
 			
+							
 			
 			if($isLocked)
-				echo '<div class="row GAME LOCKED">';	
+				echo '<div class="row GAME LOCKED"> <span class="glyphicon glyphicon-lock"></span>';	
 			else
 				echo '<div class="row GAME">';
 			
 			echo '<div class="row GameINFO">';
-			echo ''.$row['Game_Team1'].' vs '.$row['Game_Team2'].'';
+			
+			if($row['Game_Winner'] != null && $row['Picked'] != null)
+			{	
+				if($row['Picked'] == $row['Game_Winner']) 
+				{
+					echo '<span style="color: green;">'.$row['Game_Team1'].' vs '.$row['Game_Team2'].'</span>';
+				}else {
+					echo '<span style="color: red;">'.$row['Game_Team1'].' vs '.$row['Game_Team2'].'</span>';
+				}				
+			}else{
+				echo ''.$row['Game_Team1'].' vs '.$row['Game_Team2'].'';
+			}
+			
+			
 			echo '</div>		';
 			echo '<div class="row secondaryInfo">';
 				echo '<div class="col-xs-5 text-left">';			
