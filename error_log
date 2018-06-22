@@ -104,3 +104,5 @@
 [11-Jun-2018 23:20:01 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
 [11-Jun-2018 23:20:08 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
 [11-Jun-2018 23:20:11 UTC] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/bradenborman/public_html/picks18/index.php on line 21
+[22-Jun-2018 01:47:55 UTC] PHP Fatal error:  Call to undefined function isUpsetandPicked() in /home/bradenborman/public_html/picks18/Php_Scripts/weeklyhighscores.php on line 70
+[22-Jun-2018 01:48:28 UTC] PHP Fatal error:  Call to undefined function isUpsetandPicked() in /home/bradenborman/public_html/picks18/Php_Scripts/weeklyhighscores.php on line 70

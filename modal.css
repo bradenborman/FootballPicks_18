@@ -1,6 +1,5 @@
 .modal {
-    background-image:url('images/cardboard.jpg');
-    background-size:cover;
+    background-color: #4B8241;
 }
 
 
@@ -15,7 +14,7 @@
   margin-top: 0px;
   margin-bottom: 50px;
   font-family: 'Seymour One';
-  color: red;
+  color: #B6D839;
 }
 
 .lab-modal-body p {

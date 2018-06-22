@@ -20,7 +20,6 @@
 	if( isset($_COOKIE["username"]))
 		$Username = $_COOKIE["username"];
 	
-	echo  $Username;
 	
 	$TeamPicked = trim($TeamPicked);	
 	$USERID = trim($USERID);
@@ -32,9 +31,7 @@
 
 	
 	
-	echo "<br>";
-	echo  $USERID;
-	echo "<br>";
+
 	$wasGameONEpicked = false;
 	$VerifyAdd = true;
 
@@ -73,8 +70,6 @@
 		} 
 	
 
-	echo  'Game: ' .$GAMEID. '';
-	echo  '<br>';
 
 	if($isThere)
 	{
@@ -82,7 +77,7 @@
 		if (!mysqli_query($conn, $sqlPick))
   			echo("Error description: " . mysqli_error($conn));
   			
-  			echo  'updated pick';
+  			
 	}
 	
 	else {
@@ -90,10 +85,8 @@
 		if (!mysqli_query($conn, $sql))
   			echo("Error description: " . mysqli_error($conn));
   			
-  			echo  'new pick';
+  			
 	}	
-
-echo  '<br>';
 
 
 
@@ -102,40 +95,27 @@ echo  '<br>';
 
 		if($isThere) {
 			if($wasGameONEpicked)
-			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team1_PickedCount` = Game_Team1_PickedCount + '1', `Game_Team2_PickedCount` = Game_Team2_PickedCount + '-1'  WHERE `Games`.`Game_ID` = $GAMEID";
-				echo  'already there and picked game 1';
-				echo  '<br>';
-			}
 			else
-			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team2_PickedCount` = Game_Team2_PickedCount + '1', `Game_Team1_PickedCount` = Game_Team1_PickedCount + '-1'  WHERE `Games`.`Game_ID` = $GAMEID";
-				echo  'already there and picked game 2';
-				echo  '<br>';
-			}			
+
+						
 		}
 		else {
 		
 			if($wasGameONEpicked)
-			{
 				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team1_PickedCount` = Game_Team1_PickedCount + '1'  WHERE `Games`.`Game_ID` = $GAMEID";
-				echo  'not there and picked game 1';
-				echo  '<br>';
-			}
-			else
-			{
-				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team2_PickedCount` = Game_Team2_PickedCount + '1' WHERE `Games`.`Game_ID` = $GAMEID";
-				echo  'not there and picked game 2';
-				echo  '<br>';
-			}
+			else		
+				$sqlstatment = " UPDATE `football_picks`.`Games` SET  `Game_Team2_PickedCount` = Game_Team2_PickedCount + '1' WHERE `Games`.`Game_ID` = $GAMEID";		
 		}
+		
 		if (!mysqli_query($conn, $sqlstatment))
   		 echo("Error description: " . mysqli_error($conn));
  
 	}
 
 	
-	
+
 
 
 /*

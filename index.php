@@ -46,8 +46,8 @@
                <div class="dropdown" style="float:right;">
                   <button class="dropbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
                   <div class="dropdown-content">
-                     <a href="Php_Scripts/leaderboard.php">Leaderboard</a>
-                     <a href="#" data-toggle="modal" data-target="#lab-slide-bottom-popup">New User</a>
+                     <a href="leaderboard/">Leaderboard</a>
+                     <?php if( !isset($_COOKIE["username"])) echo '<a href="#" data-toggle="modal" data-target="#lab-slide-bottom-popup">New User</a>';?>
                      <?php if( isset($_COOKIE["username"])) echo '<a href="Php_Scripts/logout.php">Log out</a>';  ?>
                   </div>
                </div>
@@ -65,7 +65,7 @@
                   ?>
             </span>
             <div class="links">
-               <a href="Php_Scripts/leaderboard.php">Leaderboard</a>
+               <a href="leaderboard/">Leaderboard</a>
                 <?php if( !isset($_COOKIE["username"])) echo '<a href="#" data-toggle="modal" data-target="#lab-slide-bottom-popup">New User</a>';?>
                <?php if( isset($_COOKIE["username"])) echo '<a href="Php_Scripts/logout.php">Log out</a>';  ?>
             </div>
@@ -106,7 +106,9 @@
                <div  id="Weekly_highscores">
                   <h2 style="text-align: center;">Weekly Winners</h2>
                   
-                  <div id="weeklyLeaders"></div>
+                  <div id="weeklyLeaders">
+                  <?php include 'Php_Scripts/weeklyhighscores.php';?>
+                  </div>
                   
                </div>
                <br><Br>
