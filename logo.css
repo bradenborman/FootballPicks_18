@@ -138,7 +138,7 @@
 
 
 .Panthers {
-    background-image: url("logos/panthers.jpg");
+    background-image: url("logos/panthers.png");
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;  
@@ -218,6 +218,13 @@
 
 .Saints {
 	background-image: url("logos/no.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.Vikings {
+   background-image: url("logos/vikings.jpg");
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;  

@@ -6,13 +6,27 @@
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	$Scores = array();
 	
-				
+	 $groupID = 0;
+	if (isset($_GET['groupID']))
+		 $groupID = $_GET['groupID'];
+	
+	
+	if($groupID == 0)
+		$GroupSQL = "SELECT * FROM `User`";
+	else 
+		$GroupSQL = "SELECT * FROM `User` Where Group_ID = '".$groupID."'";
+	
+		
+					
 	$w = $conn->query("SELECT Game_Current_Week FROM `Game_Settings`");	
 	while ($row = mysqli_fetch_array($w))
 		$Currentweek = $row['Game_Current_Week'];
-			
 	
-    		$z = $conn->query("SELECT * FROM `User`");	
+
+	
+	/***** Here is where you edit the group ID ******/
+	
+    		$z = $conn->query($GroupSQL);	
 		while ($row = mysqli_fetch_array($z))
 		{
 			$total = 0;
@@ -163,12 +177,38 @@ return false;
 </div> 
  </div> 
  <div class="container">
+ 	
+ 	
+ 	 	<div class="Selection">
+ 
+ 		<h2>Group Select</h2>
+ 			<div class="row">
+ 			<div class="col-lg-3 col-sm-5">		
+ 				<select class="form-control" id="group_Selector" onChange="displayLeaderboard()" name="group">
+                     			<option value="0">All Playing</option>
+                     			 <?php 
+      						$sql = $conn->query("SELECT * FROM `Groups`");	
+						while ($row = mysqli_fetch_array($sql))
+						{
+							echo '<option value="'.$row['Group_ID'].'">'.$row['Group_Name'].'</option>';
+							
+						}	 ?>
+
+                     		</select>
+ 	
+ 	
+ 			</div>
+ 			</div>
+ 		</div>
+ 	
+ 	
+ 	
+ 	<hr>
  	<div id="leaders">
- 		<?php 
+ 		
+ 	<?php 
  		arsort($Scores);
- 		
  		$highestScore = 0;
- 		
 		foreach($Scores as $x => $x_value) {
 			if($highestScore < $x_value) 
     				$highestScore = $x_value;   //GET HIGH SCORE	
@@ -191,6 +231,29 @@ return false;
 
  	</div>
 </div>
+
+<script>
+       
+         function displayLeaderboard() {
+            var group = document.getElementById("group_Selector").value;
+         
+            var xhttp;
+           if (window.XMLHttpRequest) {
+             xhttp = new XMLHttpRequest();
+             } else {
+             xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+           }
+           xhttp.onreadystatechange = function() {
+             if (this.readyState == 4 && this.status == 200) {
+               document.getElementById("leaders").innerHTML = this.responseText;
+             }
+           };
+           xhttp.open("POST", "../Php_Scripts/leaderboard.php?groupID=" + group, true);
+           xhttp.send();
+           
+             
+         }
+</script>
 
 </body>
 </html>

@@ -122,6 +122,12 @@
 
 
 	</div>
+	
+	<h2>Reset game: </h2>
+	<br>UPDATE `Games` SET `Game_Winner`= null,`Game_Team1_PickedCount`= 0,`Game_Team2_PickedCount`= 0 WHERE Game_ID > 0
+	<br> <br> Delete all picks in pickshistory
+	
+	
 </div>
 
 

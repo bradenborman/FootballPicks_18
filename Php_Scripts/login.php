@@ -30,11 +30,16 @@
 				header('Location: http://gokusama.com/picks18/');
 				exit();
 				}
+				else{
+					$passwordHelp = $row['password_hint'];
+					setcookie("username", "",  time()-3600, "/");
+					header('Location: http://gokusama.com/picks18/?loginmessage=Try: '.$passwordHelp.'');
+					exit();
+				}
 			}
 		} 
 	
-	setcookie("username", "",  time()-3600, "/");
-	header('Location: http://gokusama.com/picks18/?loginmessage="Hey dumbass. Enter the correct info"');
-	exit();
-
+		setcookie("username", "",  time()-3600, "/");
+		header('Location: http://gokusama.com/picks18/?loginmessage="Username does not exist"');
+		exit();
 ?>

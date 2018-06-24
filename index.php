@@ -58,7 +58,7 @@
                   <form action="Php_Scripts/login.php" method="post">
                      <input type="email" placeholder="email" name="email">  
                      <input type="text" placeholder="Pin" maxlength="4" name="password">
-                     <input id="loginbtn" class="btn-success" type="submit">
+                     <input id="loginbtn" class="btn-success" value="Login" type="submit">
                   </form>
                </div>
                <?php } 
@@ -116,6 +116,10 @@
             </div>
          </div>
       </div>
+      
+      
+          
+      
       <!-- MODAL CONTENT STARTS HERE -->
       <div class="modal fade" id="lab-slide-bottom-popup" data-keyboard="false" data-backdrop="false">
          <div class="lab-modal-body">
@@ -123,15 +127,29 @@
             <div class="row">
                <form action="Php_Scripts/createUser.php" method="post">
                   <div class="row">
-                     <div class="col-sm-6"><b>First Name: </b><input type="text" name="fname" class="form-control" id="firstName"></div>
-                     <div class="col-sm-6"><b>Last Name: </b><input type="text"  name="lname" class="form-control" id="lastName"></div>
+                     <div class="col-sm-6"><b>First Name: </b><input type="text" required name="fname" class="form-control" id="firstName"></div>
+                     <div class="col-sm-6"><b>Last Name: </b><input type="text"  required  name="lname" class="form-control" id="lastName"></div>
                   </div>
                   <div class="row">
-                     <div class="col-sm-9"><b>Email: </b><input type="email" name="email" class="form-control" id="newEmail"></div>
-                     <div class="col-sm-3"><b>Pin #: </b><input type="password" name="pin" maxlength="4" class="form-control" id="newpin"></div>
+                     <div class="col-sm-9"><b>Email: </b><input type="email" required name="email" class="form-control" id="newEmail"></div>
+                     <div class="col-sm-3"><b>Pin #: </b><input type="password" required  name="pin" maxlength="4" class="form-control" id="newpin"></div>
                   </div>
-                  <div class="row">
-                     <div class="col-sm-12"><b>Password Hint:</b> <input type="text" name="hint" class="form-control" id="hint"></div>
+                  <div class="row">                                      
+                     <div class="col-sm-6"><b>Password Hint:</b> <input required  type="text" name="hint" class="form-control" id="hint"></div>
+                     <div class="col-sm-6"><b>Group:</b> 
+                     
+                     
+                     		<select class="form-control" id="group_Selector" name="group">
+                     			 <?php 
+      						$sql = $conn->query("SELECT * FROM `Groups`");	
+						while ($row = mysqli_fetch_array($sql))
+						{
+							echo '<option value="'.$row['Group_ID'].'">'.$row['Group_Name'].'</option>';
+							
+						}	 ?>
+
+                     		</select>
+                     </div>
                   </div>
                   <br>
                   <div class="row">
@@ -180,55 +198,23 @@
              	$(".dropdown").slideDown(700)
              }		
              	
-         });
+         });        
       </script>
+      
+      <div id="snackbar"> <?php if(isset($_GET["loginmessage"])) echo $_GET["loginmessage"]; ?></div>
+      
+      <?php 
+      		
+      		if(isset($_GET["loginmessage"]))
+      			echo '<script>
+    					var x = document.getElementById("snackbar");
+    					x.className = "show";
+    					setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);				
+				
+				</script>';      	
+      ?>
+      
+      	
+      
    </body>
 </html>
-<!--- 
-   <div class="panel-group"><h1>Quick Help</h1>
-       <div class="panel panel-primary">
-         <div class="panel-heading">
-           <h2 class="panel-title">
-             <a data-toggle="collapse" href="#collapse1">How to play</a>
-           </h2>
-         </div>
-         <div id="collapse1" class="panel-collapse collapse">
-    <div class="panel-body"><p><b>Welcome to Pick the Upset Challenge 2018.</b> This Challenge will be active throughout the 2018-2019 NFL Season and each week, the user with the highest score will receive a price along with the grand champion after week 17. Each correctly picked game will result in a point. However, if the game qualifies as an upset, 3 points will be awarded if the lessor picked team won. A team qualifies if more less than 33.4% of users have picked them to win; nothing to do with point spread or forecast. Simple enough right? The only rule, picks must be made before kickoff on sunday for the week.</p></div>
-         </div>
-       </div>
-       
-    <div class="panel panel-primary">
-         <div class="panel-heading">
-           <h2 class="panel-title">
-             <a data-toggle="collapse" href="#collapse2">Picking</a>
-           </h2>
-         </div>
-         <div id="collapse2" class="panel-collapse collapse">
-    <div class="panel-body"><p>Whichever logo is twice as big as the corresponding partner is the team you have picked for the current matchup. If the two appear to be equal in size, you have not made a pick for this game.</p></div>
-         </div>
-    </div>
-    <div class="panel panel-primary">
-         <div class="panel-heading">
-           <h2 class="panel-title">
-             <a data-toggle="collapse" href="#collapse3">Saving Picks</a>
-           </h2>
-         </div>
-         <div id="collapse3" class="panel-collapse collapse">
-    <div class="panel-body"><p>If you are a returning user from last year, saving has been revamped majorly! Simply touching the team you want to pick is all that is required. From there a call to the database is made with all the info. The data is returned back and the percentages are up to date just like that.</p></div>
-         </div>
-    </div>
-    <div class="panel panel-primary">
-         <div class="panel-heading">
-           <h2 class="panel-title">
-             <a data-toggle="collapse" href="#collapse4">Log In</a>
-           </h2>
-         </div>
-         <div id="collapse4" class="panel-collapse collapse">
-    <div class="panel-body"><p>Another huge upgrade this year, the ability to stay logged in week to week! Just make sure cookies are enabled. If you can't remember you login, you may hit the password reminder at the bottom of the page. I do not have a well thoughtout process for user helping. Please remember the 4 didget pin. Make it all 0's if you have to. Emails will only be used if you win and I send the giftcard info via the info provided</p></div>
-         </div>
-    </div>
-   </div>
-   	
-   	
-   	
-   	-->

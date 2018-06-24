@@ -8,21 +8,24 @@
 		
 	$isThere = false;	
 	if (isset($_POST['fname']))
-		$fname = $_POST['fname'];
+		$fname = mysql_escape_string($_POST['fname']);
 		
 	if (isset($_POST['lname']))
-		$lname = $_POST['lname'];
+		$lname = mysql_escape_string($_POST['lname']);
 		
 	if (isset($_POST['email']))
-		$email = $_POST['email'];
+		$email = mysql_escape_string($_POST['email']);
 		
 	if (isset($_POST['pin']))
-		$pin = $_POST['pin'];
+		$pin = mysql_escape_string($_POST['pin']);
 		
 	if (isset($_POST['hint']))
-		$hint = $_POST['hint'];
+		$hint = mysql_escape_string($_POST['hint']);
 	
-	
+	if (isset($_POST['group']))
+		$group = mysql_escape_string($_POST['group']);
+		
+		
 	/*CHECK TO SEE IF ALREADY IN THE DATABASE  */
 	
 	$GetUsers = "SELECT * FROM `User`";	
@@ -49,7 +52,7 @@
 		
 			$secret = password_hash($pin, PASSWORD_BCRYPT);
 			
-			$sql = "INSERT INTO `football_picks`.`User` (`User_ID`, `Username`, `password`, `password_hint`, `First_Name`, `Last_Name`) VALUES (NULL, '$email', '$secret', '$hint', '$fname', '$lname')";
+			$sql = "INSERT INTO `football_picks`.`User` (`User_ID`, `Username`, `password`, `password_hint`, `First_Name`, `Last_Name`, `Group_ID`) VALUES (NULL, '$email', '$secret', '$hint', '$fname', '$lname', '$group')";
 			if (!mysqli_query($conn, $sql))
   			{
   				echo("Error description: " . mysqli_error($conn));

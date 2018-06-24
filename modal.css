@@ -95,6 +95,10 @@
 }
 
 
+.row {
+	margin-top: 4px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .lab-modal-body {
