@@ -18,9 +18,16 @@ input[type=email] {
 }
 
 
+
 input[type=password] {
 	color: black;
 }
+
+#loginPassword {
+	width: 100px;
+}
+
+
 
 
 header {
@@ -33,8 +40,6 @@ header {
 	border-bottom-style: double;
 	font-size: 1.5em;
 	font-family: 'Anton';
-	position: -webkit-sticky;
-	position: sticky;
 	top: 0;
 	z-index: 99;
 }
@@ -42,7 +47,8 @@ header {
 
 header h2 {
 	margin-top: 0px;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline-block;
 	font-size: 2em;
 	max-width: 75%;
@@ -57,6 +63,7 @@ header h2 {
 	color: white;
 	border-radius: 20px;
 	padding: 8px;
+	padding-top: 15px;
 }
 
 .links a:hover {
@@ -84,6 +91,7 @@ header h2 {
 }
 
 .dropdown-content {
+    padding-top: 5px;
     display: none;
     position: absolute;
     right: 0;
@@ -94,6 +102,7 @@ header h2 {
 }
 
 .dropdown-content a {
+
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -117,8 +126,17 @@ header h2 {
 
 
 
+#icon {
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-left: 40px;
+	
+}
 
-
+#icon:hover {
+	color: red;
+	 cursor: pointer;
+}
 
 
 #snackbar {
@@ -191,6 +209,7 @@ header h2 {
 }
 
 #week_Selector {
+	margin-bottom: 5px;
 	padding: 5px;
 	border-radius: 10px;
 	letter-spacing: 2px;
@@ -411,6 +430,32 @@ header h2 {
     top: 0px;
 }
 
+
+
+input[type="email"] {
+    width: 75%;
+    dispaly: block;
+    color: black;
+}
+
+#loginPassword {
+	width: 45%;
+	display: inline-block;
+}
+
+#loginbtn {
+	width: 28%;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	display: inline-block;
+}
+
+
+.loginBoxes {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+}
 
 
 }	

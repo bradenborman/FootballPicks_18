@@ -6,11 +6,15 @@
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	$Scores = array();
 	
+			
+	echo '<h2 style="text-align: center;">Weekly Winners</h2>';		
 				
 	$w = $conn->query("SELECT Game_Current_Week FROM `Game_Settings`");	
 	while ($row = mysqli_fetch_array($w))
 		$Currentweek = $row['Game_Current_Week'];
 			
+	
+	
 	
 			for ($week = 1; $week <= $Currentweek; $week++) {
 				
@@ -41,7 +45,6 @@
 function getEveryoneWithScoreThatWeek($highScore, $conn, $week) {	
 	echo '<hr><b><h3>Week :'. $week . '</h3></b>';
 	$z = $conn->query("SELECT * FROM `User`");	
-	
 	
 	if($highScore > 0)
 	{

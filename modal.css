@@ -1,6 +1,59 @@
+
+.Mod-head {
+	position: absolute;		
+	top: -50px;
+	left: -40px;
+	text-align: center;
+    	background-image: url("images/header.jpg");
+    	border: 2px solid #B6D839;
+    	border-bottom: 12px double #B6D839;
+    	color: white;
+    	padding: 25px;
+    	border-radius: 60px;
+    	font-size: 2em;
+    	font-family: 'Anton';
+    	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+    	
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example{
+    50% {padding-right: 800px;}
+    100% {padding-right: 200px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    50% {padding-right: 500px;}
+    100% {padding-right: 200px;}
+}
+
+
+
+
+
+
+
+.modal h2 {
+	font-family: 'Anton';
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.modal button {
+	background-color: #bfbfbf;
+}
+
+
 .modal {
     background-color: #4B8241;
 }
+
+
+
 
 
 .modal.fade.in .lab-modal-body {
@@ -111,10 +164,7 @@
  	
    }
    
-   .lab-modal-body h1 {
- 	text-align: center;
- 	font-size: 1.6em;	
-   }
+
    
    #submitNewUser {
    margin-top: 15px;
@@ -125,6 +175,11 @@
    .lab-modal-body input {
    margin-bottom: 10px;
    }
+   
+   
+.Mod-head { 
+display: none;
+}
    
 }
 

@@ -59,13 +59,13 @@
   			}else
   			{
   				setcookie(username, $email, time() + (365 * 24 * 60 * 60), "/");
-				header('Location: http://gokusama.com/picks18/');
+				header('Location: http://pickemupsets.com/');
 				exit();
   			}
 
 		}	
 		else {
-			header('Location: http://gokusama.com/picks18/');
+			header('Location: http://pickemupsets.com/');
 		}
 	
 	

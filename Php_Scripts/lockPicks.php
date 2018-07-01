@@ -110,7 +110,7 @@
 			
 		
 		
-		header('Location: http://gokusama.com/picks18/Php_Scripts/Admin.php');
+		header('Location: http://pickemupsets.com/admin/');
 		exit();
 		
 		

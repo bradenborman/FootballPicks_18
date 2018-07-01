@@ -32,7 +32,7 @@
 	while ($row = mysqli_fetch_array($User))
 			$USERID = $row['User_ID'];
 
-	$sql = "SELECT * FROM `Games` LEFT JOIN Pick_History  ON Pick_History.Game_ID = Games.Game_ID AND Pick_History.User_ID = '$USERID' WHERE Week_ID = '$weekSelected' ORDER BY Game_Day ASC";	
+	$sql = "SELECT * FROM `Games` LEFT JOIN Pick_History  ON Pick_History.Game_ID = Games.Game_ID AND Pick_History.User_ID = '$USERID' WHERE Week_ID = '$weekSelected' ORDER BY Games.Game_ID ASC";	
 	
 	
 	

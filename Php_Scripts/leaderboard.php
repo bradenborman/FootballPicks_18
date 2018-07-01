@@ -107,11 +107,11 @@ return false;
     			?>
     				
     			<div class="row entry">
-    				<div class="col-sm-6 text-center"><h2 style="display: inline-block;">		
-	    				<?php echo  $x; ?></h2><span style="float:right;"><?php echo  $x_value; ?></span>
+    				<div class="col-sm-6 text-center"><h2 style="display: inline-block; font-family: 'Anton'; font-size: 28px;">		
+	    				<?php echo  $x; ?></h2><span style="float:right; margin-top: 7px; font-size: 28px;"><?php echo  $x_value; ?></span>
 	    			</div>
 				<div class="col-sm-6">	
-					<progress style="width:100%;" value="<?php echo $x_value; ?>" max="<?php echo $highestScore; ?>"></progress>
+					<progress style="width:100%; margin-top: 20px;" value="<?php echo $x_value; ?>" max="<?php echo $highestScore; ?>"></progress>
 				</div>	
 
 			</div>

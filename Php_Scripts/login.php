@@ -27,19 +27,19 @@
 				
 				{
 				setcookie(username, $email, time() + (365 * 24 * 60 * 60), "/");
-				header('Location: http://gokusama.com/picks18/');
+				header('Location: http://pickemupsets.com/');
 				exit();
 				}
 				else{
 					$passwordHelp = $row['password_hint'];
 					setcookie("username", "",  time()-3600, "/");
-					header('Location: http://gokusama.com/picks18/?loginmessage=Try: '.$passwordHelp.'');
+					header('Location: http://pickemupsets.com/?loginmessage=Try: '.$passwordHelp.'');
 					exit();
 				}
 			}
 		} 
 	
 		setcookie("username", "",  time()-3600, "/");
-		header('Location: http://gokusama.com/picks18/?loginmessage="Username does not exist"');
+		header('Location: http://pickemupsets.com/?loginmessage="Username does not exist"');
 		exit();
 ?>
