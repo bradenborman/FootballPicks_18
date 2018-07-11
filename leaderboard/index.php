@@ -103,7 +103,7 @@
       <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="shortcut icon" href="../images/football.png" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -122,7 +122,7 @@
                   Through week <?php echo $Currentweek; ?>           
                </div>
                <div class="links">
-                  <a href="http://pickemupsets.com/">Home</a>              
+                  <a href="https://pickemupsets.com/">Home</a>              
                </div>
             </div>
          </div>
@@ -140,28 +140,47 @@
          </select>
          <div class="row">
             <div class="col-md-9">
-               <div id="leaders">
+               <div data-toggle="tooltip"  title="Scoll on me to see more scores!" id="leaders">
+                 
+                 
+                  <div id="contentL">
+                 
+                 
                   <?php 
                      arsort($Scores);
                      $highestScore = 0;
+                    
                      foreach($Scores as $x => $x_value) {
                      if($highestScore < $x_value) 
-                      				$highestScore = $x_value;   //GET HIGH SCORE	
+                      				$highestScore = $x_value; 
+                      				//GET HIGH SCORE	
+                     
                       			?>
                   <div class="row entry">
                      <div class="col-sm-6">
                         <h2>		
-                           <?php echo  $x; ?>
+                          <?php echo  $x; ?>
                         </h2>
                         <span id="score"><?php echo  $x_value; ?></span> 
                      </div>
-                     <div class="col-sm-6">	
+                     <div class="col-sm-6 hidden-xs">	
                         <progress style="width:100%; margin-top: 20px;" value="<?php echo $x_value; ?>" max="<?php echo $highestScore; ?>"></progress>
                      </div>
                   </div>
-                  <?php    			   			
+                  <?php  
+  			   			
                      }			
                      ?>
+                     
+       
+                     
+                     
+                   </div>    
+                     
+                     
+                     
+                     
+                     
                </div>
             </div>
             <div class="col-md-3">
@@ -192,7 +211,7 @@
            }
            xhttp.onreadystatechange = function() {
              if (this.readyState == 4 && this.status == 200) {
-               document.getElementById("leaders").innerHTML = this.responseText;
+               document.getElementById("leaders").innerHTML = '<div id="contentL">' + this.responseText + '</div>';
              }
            };
            xhttp.open("POST", "../Php_Scripts/leaderboard.php?groupID=" + group, true);
@@ -200,15 +219,51 @@
            
              
          }
+         
+         
+         
+         /* Storing highscores in two parral arrays. For paganation */
+         
+         var Names = []
+         var Scores = []
+         
+         <?php
+          foreach($Scores as $x => $x_value) {
+        
+         ?>
+         
+         	Names.push("<?php echo $x;  ?>") 
+         	Scores.push("<?php echo $x_value;  ?>") 
+         	
+         <?php	
+        	}
+      	 ?>
+
+         //alert(Names)
+      //   alert(Scores)
+         
+         
+         
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+    //"HOVER ON CLIP BOARD => Scoll on me to see all the sco"
+});
+         
+	
+		 
+         
+         
+         
+         
       </script>
       
 <script>
 $(document).ready(function(){
 			
-        $(".linkk:nth-child(1)").delay(2500).fadeIn(600);
-		$(".linkk:nth-child(2)").delay(2500).fadeIn(2200);
-		$(".linkk:nth-child(3)").delay(2500).fadeIn(3300);
-		$(".linkk:nth-child(4)").delay(2500).fadeIn(4400);
+        $(".linkk:nth-child(1)").delay(1200).fadeIn(1100);
+		$(".linkk:nth-child(2)").delay(1200).fadeIn(2200);
+		$(".linkk:nth-child(3)").delay(1200).fadeIn(3300);
+		$(".linkk:nth-child(4)").delay(1200).fadeIn(4400);
 });
 </script>
       

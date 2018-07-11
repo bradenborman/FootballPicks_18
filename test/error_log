@@ -1,0 +1,63 @@
+[10-Jul-2018 23:30:53 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/test/index.php on line 15
+[10-Jul-2018 23:30:53 UTC] PHP Notice:  Undefined variable: sqlUser in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:30:53 UTC] PHP Warning:  mysqli::query(): Empty query in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:30:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/test/index.php on line 17
+[10-Jul-2018 23:32:14 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/bradenborman/public_html/test/index.php on line 21
+[10-Jul-2018 23:32:21 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/test/index.php on line 15
+[10-Jul-2018 23:32:21 UTC] PHP Notice:  Undefined variable: sqlUser in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:32:21 UTC] PHP Warning:  mysqli::query(): Empty query in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:32:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/test/index.php on line 18
+[10-Jul-2018 23:32:26 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/test/index.php on line 15
+[10-Jul-2018 23:32:26 UTC] PHP Notice:  Undefined variable: sqlUser in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:32:26 UTC] PHP Warning:  mysqli::query(): Empty query in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:32:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/test/index.php on line 18
+[10-Jul-2018 23:32:37 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/test/index.php on line 15
+[10-Jul-2018 23:32:37 UTC] PHP Notice:  Undefined variable: sqlUser in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:32:37 UTC] PHP Warning:  mysqli::query(): Empty query in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:32:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/test/index.php on line 18
+[10-Jul-2018 23:33:04 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/test/index.php on line 15
+[10-Jul-2018 23:33:04 UTC] PHP Notice:  Undefined variable: sqlUser in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:33:04 UTC] PHP Warning:  mysqli::query(): Empty query in /home/bradenborman/public_html/test/index.php on line 16
+[10-Jul-2018 23:33:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/test/index.php on line 18
+[10-Jul-2018 23:34:35 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:34:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:35:11 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 32
+[10-Jul-2018 23:35:59 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:40:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bradenborman/public_html/test/index.php on line 75
+[10-Jul-2018 23:42:23 UTC] PHP Parse error:  syntax error, unexpected '+=' (T_PLUS_EQUAL) in /home/bradenborman/public_html/test/index.php on line 25
+[10-Jul-2018 23:44:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:45:55 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined index: Picked in /home/bradenborman/public_html/test/index.php on line 26
+[10-Jul-2018 23:46:50 UTC] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:49:04 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:49:04 UTC] PHP Fatal error:  Unsupported operand types in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:49:34 UTC] PHP Fatal error:  Unsupported operand types in /home/bradenborman/public_html/test/index.php on line 27
+[10-Jul-2018 23:49:35 UTC] PHP Fatal error:  Unsupported operand types in /home/bradenborman/public_html/test/index.php on line 27

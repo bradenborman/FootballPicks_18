@@ -11720,3 +11720,727 @@
 [27-Jun-2018 22:51:52 UTC] PHP Warning:  Division by zero in /home/bradenborman/public_html/Php_Scripts/weeklyhighscores.php on line 95
 [27-Jun-2018 22:51:52 UTC] PHP Warning:  Division by zero in /home/bradenborman/public_html/Php_Scripts/weeklyhighscores.php on line 95
 [27-Jun-2018 22:51:52 UTC] PHP Warning:  Division by zero in /home/bradenborman/public_html/Php_Scripts/weeklyhighscores.php on line 95
+[04-Jul-2018 17:47:18 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:47:18 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:47:18 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:47:18 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:47:20 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:47:20 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:47:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:47:20 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:48:13 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:13 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:13 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:48:18 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:18 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:18 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:18 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:48:28 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:28 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:28 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:40 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:40 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:40 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:41 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:41 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:41 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:41 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:48:56 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:56 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:56 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:48:56 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 20
+[04-Jul-2018 17:49:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[04-Jul-2018 17:52:05 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:52:05 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:52:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:52:05 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:52:17 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:52:17 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:52:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:52:17 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:01 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:01 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:01 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:01 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:01 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:01 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:28 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:28 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:28 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:28 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:28 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:28 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:38 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:38 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:38 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:38 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:39 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:39 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:39 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:58 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:58 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:58 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:53:59 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:59 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:59 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:53:59 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:55:40 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:40 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:40 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:55:40 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:40 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:40 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:55:42 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:42 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:42 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:42 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:55:42 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:42 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:42 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:42 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:55:55 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:55 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:55 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:55:55 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:55 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:55:55 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:56:31 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:31 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:31 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:31 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:56:31 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:31 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:31 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:31 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:56:52 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:52 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:52 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:56:53 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:53 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:56:53 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:06 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:06 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:06 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:06 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:06 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:06 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:13 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:13 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:13 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:14 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:14 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:14 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:35 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:35 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:35 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:35 UTC] PHP Notice:  Undefined index: Game_Current_Week in /home/bradenborman/public_html/index.php on line 32
+[04-Jul-2018 17:57:36 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:36 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:36 UTC] PHP Notice:  Undefined index: Game_Current_Week in /home/bradenborman/public_html/index.php on line 32
+[04-Jul-2018 17:57:47 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:47 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:47 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:47 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:47 UTC] PHP Notice:  Undefined index: Game_Current_Week in /home/bradenborman/public_html/index.php on line 32
+[04-Jul-2018 17:57:47 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:47 UTC] PHP Warning:  mysql_query(): Access denied for user 'bradenborman'@'localhost' (using password: NO) in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:47 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bradenborman/public_html/index.php on line 21
+[04-Jul-2018 17:57:47 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/bradenborman/public_html/index.php on line 22
+[04-Jul-2018 17:57:47 UTC] PHP Notice:  Undefined index: Game_Current_Week in /home/bradenborman/public_html/index.php on line 32
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:37:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:37:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:37:41 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:37:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:37:56 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:37:56 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:37:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:37:56 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:37:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:37:57 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:37:57 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:37:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:37:57 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:38:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:38:13 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:38:13 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:38:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:38:13 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:38:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:38:14 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:38:14 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:38:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:38:14 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:38:21 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:38:21 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:38:21 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:38:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:38:21 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:38:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:38:22 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:38:22 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:38:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:38:22 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:38:25 UTC] PHP Notice:  Undefined index: Time_Picked in /home/bradenborman/public_html/index.php on line 32
+[05-Jul-2018 23:38:25 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:38:25 UTC] PHP Notice:  Undefined index: Time_Picked in /home/bradenborman/public_html/index.php on line 32
+[05-Jul-2018 23:38:25 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:39:48 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:39:48 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:39:48 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:39:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:39:48 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:39:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:39:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:39:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:39:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:39:52 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:39:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:39:53 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:39:53 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:39:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:39:53 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:40:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:40:11 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:40:11 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:40:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:40:11 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:40:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:40:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:40:52 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:40:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:40:52 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:40:56 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:40:56 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:40:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:40:56 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:40:56 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:40:56 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:40:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:40:56 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:40:58 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:40:58 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:40:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:40:58 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:40:59 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:40:59 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 28
+[05-Jul-2018 23:40:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bradenborman/public_html/index.php on line 31
+[05-Jul-2018 23:40:59 UTC] PHP Notice:  Undefined variable: isThere in /home/bradenborman/public_html/index.php on line 35
+[05-Jul-2018 23:42:38 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:42:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:42:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:43:00 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:43:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:43:47 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:43:49 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:45:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:45:38 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 25
+[05-Jul-2018 23:45:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 19
+[05-Jul-2018 23:46:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[05-Jul-2018 23:46:50 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 00:19:55 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 00:19:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 00:19:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 00:19:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 00:19:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:21:35 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:22:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:22:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:22:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:22:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:22:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:39:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:39:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:39:35 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:39:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 21
+[06-Jul-2018 01:47:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 03:39:51 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:29 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:33 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:35 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:36 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 06:37:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 07:09:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 07:55:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 07:56:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 09:02:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 19:16:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[06-Jul-2018 19:16:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 01:55:55 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 01:56:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 01:56:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 03:08:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 04:18:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:36 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 15:49:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:35:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:36:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 17:36:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 19:55:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:08 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:02:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[07-Jul-2018 20:03:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:24:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:24:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:24:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:25:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:25:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:25:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:06 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:45 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:26:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:15 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:49 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:27:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:28:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:28:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:29:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:29:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:29:29 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:29:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:29:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:30:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:30:45 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:30:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:49:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:49:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:50:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:50:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:50:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:50:51 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:50:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:06 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:48 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:51:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:52:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:53:29 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:53:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:54:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:57:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 00:57:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 01:04:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 01:04:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 01:04:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:15:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:15:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:30:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:32:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:32:55 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:35:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:36:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:39:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:39:45 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:40:46 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:40:48 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:40:49 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:41:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:42:00 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:42:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:42:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:43:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:43:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:46:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:46:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:46:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:48:49 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:49:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:49:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:50:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:50:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:50:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:50:49 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 02:50:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 05:42:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 05:42:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 05:43:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:16:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:46:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:46:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:47:10 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 26
+[08-Jul-2018 16:47:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:47:13 UTC] PHP Notice:  Undefined variable: USERID in /home/bradenborman/public_html/index.php on line 26
+[08-Jul-2018 16:47:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:47:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:47:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 16:47:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:17:05 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:17:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:17:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:17:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:18:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:18:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:19:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:19:21 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:19:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:19:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:20:06 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:20:15 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:20:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:20:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:20:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:47:00 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:47:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:47:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:47:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 17:47:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 18:55:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 18:57:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 18:57:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 18:58:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 19:00:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 19:10:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 19:10:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 19:10:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:01:34 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:01:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:01:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:02:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:11:36 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:11:51 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:11:55 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:25:05 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:25:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:25:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:25:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:25:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:25:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:26:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:26:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:26:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:26:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 20:26:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 22:22:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 22:22:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 22:29:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 22:29:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:46:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:48:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:48:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:50:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:50:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:50:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[08-Jul-2018 23:51:33 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:01:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:21 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:29 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:29 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:31 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:31 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:33 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:02:33 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:31 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:19:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:20:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:20:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:30:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:34:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:34:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:06 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:08 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:35:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:51:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:51:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 00:52:50 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 01:00:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 01:01:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 01:30:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 01:43:06 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 01:53:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 02:15:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 02:15:12 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 02:17:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 02:17:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 03:54:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 04:33:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:10:56 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:11:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:14:18 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 07:20:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 08:53:41 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 09:32:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 12:49:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 18:28:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 18:28:39 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 18:28:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 18:28:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 18:28:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[09-Jul-2018 23:20:49 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:54:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:54:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:54:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:55:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:56:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:56:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:56:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:56:13 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 00:56:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 01:13:00 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 01:13:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 01:13:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 01:13:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 01:20:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 01:51:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:11:15 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:11:47 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:12:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:12:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:12:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:12:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:31:23 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:32:11 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:34:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:34:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:35:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:35:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:37:14 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:37:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:38:27 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:38:30 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:38:37 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:39:00 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:39:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:39:24 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:39:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:39:46 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:39:51 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:42:58 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:43:07 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:44:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:44:20 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:45:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:48:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:49:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:49:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:49:22 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:49:26 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:49:29 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:49:57 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:50:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:50:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:51:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:51:16 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:51:46 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:51:50 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:53:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:53:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:53:59 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:05 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:09 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:19 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:25 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:32 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:38 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:46 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:54:55 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:55:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 02:58:28 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 03:01:10 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 03:01:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 03:01:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 03:02:02 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 13:52:15 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 13:52:15 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 19:12:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 19:12:17 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 20:16:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 20:16:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[10-Jul-2018 23:30:40 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 01:19:31 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 22:48:51 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:04:55 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:05:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:05:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:05:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:05:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:06:42 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:06:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:06:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:06:43 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:06:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:06:44 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:07:51 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:07:52 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:07:53 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:07:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:07:54 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:08:01 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:08:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:08:03 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:08:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:08:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20
+[11-Jul-2018 23:16:04 UTC] PHP Notice:  Undefined variable: Username in /home/bradenborman/public_html/index.php on line 20

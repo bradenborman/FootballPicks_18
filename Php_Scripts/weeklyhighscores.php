@@ -56,6 +56,9 @@ function getEveryoneWithScoreThatWeek($highScore, $conn, $week) {
 				echo $name. ": ". $highScore. "<br>";	
 		}
 	}
+	else {
+		echo 'Picks lock at 11:59 AM';
+	}
 }
 	
 	

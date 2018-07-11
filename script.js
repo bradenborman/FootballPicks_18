@@ -43,8 +43,6 @@ $('body').on('click','.team',function(){
 
 
 
-
-
 function PickGame(teamPicked) {
    var weekSelected = document.getElementById("week_Selector").value;
    var Username = document.getElementById("username").innerHTML;
@@ -57,7 +55,7 @@ function PickGame(teamPicked) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("Picked").innerHTML = this.responseText;
-       setTimeout(function(){ loadGames(); }, 1000);
+       setTimeout(function(){ loadGames(); }, 500);
     }
   };				
   xhttp.open("POST", "Php_Scripts/pickGame.php?week=" + weekSelected + "&team=" + teamPicked + "&user=" + Username, true);
@@ -65,3 +63,4 @@ function PickGame(teamPicked) {
   
     
 }
+

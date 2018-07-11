@@ -39,7 +39,7 @@
 	
 	
 	if($isThere) { 
-	header('Location: http://gokusama.com/picks18/');
+	header('Location: https://pickemupsets.com/');
 	}else
 	{
 		/***CHECK FOR ALL FEILDS POPULATED ***/
@@ -59,13 +59,13 @@
   			}else
   			{
   				setcookie(username, $email, time() + (365 * 24 * 60 * 60), "/");
-				header('Location: http://pickemupsets.com/');
+				header('Location: https://pickemupsets.com/');
 				exit();
   			}
 
 		}	
 		else {
-			header('Location: http://pickemupsets.com/');
+			header('Location: https://pickemupsets.com/');
 		}
 	
 	

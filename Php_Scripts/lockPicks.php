@@ -110,7 +110,7 @@
 			
 		
 		
-		header('Location: http://pickemupsets.com/admin/');
+		header('Location: https://pickemupsets.com/admin/index.php?allowed=truee');
 		exit();
 		
 		

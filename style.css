@@ -31,6 +31,7 @@ input[type=password] {
 
 
 header {
+	position: sticky;
 	padding: 15px;
 	background-image: url("images/header.jpg");
 	margin-bottom: 50px;
@@ -40,7 +41,7 @@ header {
 	border-bottom-style: double;
 	font-size: 1.5em;
 	font-family: 'Anton';
-	top: 0;
+	top: 8px;
 	z-index: 99;
 }
 
@@ -121,7 +122,43 @@ header h2 {
 
 
 
+.progress-container {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 8px;
+  background: #4B8241;
+  z-index: 100;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+   z-index: 100;
+}
+
+
+
+
 /***************END HEADER***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -150,7 +187,7 @@ header h2 {
     padding: 50px;
     position: fixed;
     z-index: 1;
-    left: 50%;
+    left: 40%;
     bottom: 150px;
     font-size: 2.3em;
 }
@@ -186,7 +223,10 @@ header h2 {
 
 
 
-
+#scoreSnapshot a {
+	font-size: .7em;
+	
+}
 
 
 
@@ -347,9 +387,20 @@ margin-bottom: 15px;
 
 
 
-
-
-
+#scoreSnapshot {
+	background: linear-gradient(to top left, #e8e8e8 0%, #c0c0c0 100%);
+	color: black;
+	 font-family: 'IBM Plex Serif';
+	 font-weight: bold;
+	width: 85%; 
+	margin: auto;
+	padding: 30px;
+	border: 5px double white;
+	border-radius: 55px;
+	font-size: 1.6em;
+	margin-top: 20px;
+	
+}
 
 
 /* Input form */
@@ -358,6 +409,34 @@ margin-bottom: 15px;
 #FORM input {
 	margin: 10px;
 }
+
+
+
+
+
+/*
+	Ipad 
+*/
+@media screen and (max-width: 992px) {
+   	header {
+   		position: static;
+   		top: 0px;
+   	}
+   
+   .progress-container 
+   {
+	display: none;
+    }
+
+
+
+    .links {
+        text-align: right;
+        margin-right: 5px;
+    }
+}
+
+
 
 
 
@@ -457,6 +536,16 @@ input[type="email"] {
 	text-align:center;
 }
 
+
+
+
+#snackbar {
+	margin: 0px;
+    	width: 100%;
+    	left: 0;
+    	border-radius: 55px;
+    	border: 2px solid white;
+}
 
 }	
 

@@ -11,7 +11,7 @@
 	if (!mysqli_query($conn, "UPDATE `football_picks`.`Game_Settings` SET  Game_Current_Week = $newWeek  WHERE `Game_Settings`.`Game_Id` = '1'"))
   		 echo("Error description: " . mysqli_error($conn));
   	
-  	header('Location: http://pickemupsets.com/admin/');
+  	header('Location: http://pickemupsets.com/admin/index.php?allowed=truee');
 	exit();
 
 ?>

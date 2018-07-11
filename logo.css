@@ -208,6 +208,13 @@
     background-position: center center;  
 }
 
+.Titans {
+    background-image: url("logos/tennlogo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
 
 .Texans {
     background-image: url("logos/texlogo.jpg");

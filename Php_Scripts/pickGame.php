@@ -54,6 +54,10 @@
 			}
 
 		}
+			
+	//echo $TeamPicked;		
+	//echo $GAMEID;
+			
 																//WILL NEED TO ADD USER ID HERE TOO
 	$result = "SELECT * FROM `Pick_History` WHERE Game_Id = $GAMEID and User_ID = $USERID";	
 	$CheckSQL= $conn->query($result);

@@ -11,6 +11,30 @@
        die("Connection failed: " . $conn->connect_error);
    }
    
+   
+   
+ //Checks to see if the user has been delteted and if it has more than likely account still has cookie in use on a phone or desktop etc  
+   	if( isset($_COOKIE["username"]))
+		$Username = $_COOKIE["username"];
+   
+   	$sqlUser = "SELECT * FROM `User` WHERE Username = '$Username'";	
+	$User = $conn->query($sqlUser);	
+	while ($row = mysqli_fetch_array($User))
+			$USERID = $row['User_ID'];
+   
+   
+   	if(isset($_COOKIE["username"]) && $USERID == null)
+	{
+		setcookie("username", "",  time()-3600, "/");	
+		header('Location: https://pickemupsets.com/');
+		exit();
+	}
+//Ends checks
+	
+   
+   
+   
+   
    	$sql = "SELECT * FROM `Game_Settings`";		
    	$Settings = $conn->query($sql);
    		while ($row = mysqli_fetch_array($Settings))
@@ -29,7 +53,8 @@
       <meta name="author" content="Braden Borman">
       
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
       <!-- Ref section -->
       <script src="/javascript/index.js" type="text/javascript"></script>
       <link rel="stylesheet" type="text/css" href="style.css">
@@ -52,11 +77,13 @@
     enable_page_level_ads: true
   });
 </script>
-      
+
       
    </head>
    <body style="background-color: #4B8241;">
-      
+      <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
       <header>
          <div class="container">
             <div id="TOPHEADER">
@@ -89,11 +116,10 @@
                <a href="leaderboard/">Leaderboard</a>
                <?php if( !isset($_COOKIE["username"])) echo '<a href="#" data-toggle="modal" data-target="#lab-slide-bottom-popup">New User</a>';?>
                <?php if( isset($_COOKIE["username"])) echo '<a href="Php_Scripts/logout.php">Log out</a>';  ?>             
-            </div>
+            </div>           
       </header>
       
-      
-      
+     
       
       
       <div class="container">
@@ -126,8 +152,19 @@
                <!-- End of Games Area -->
             </div>
             <!-- End of col-8 -->
-            <div class="col-md-4  text-center" style="position: -webkit-sticky; position: sticky; top: 35px;">
-               <!--FORM AREA-->
+            
+            
+            
+            <div class="col-md-4  text-center"> 
+             <div class="row">
+            	<div class="col-md-12">
+              		<div id="scoreSnapshot"></div>
+              </div>
+            </div>
+            <br><Br>
+            
+            
+            
                <div  id="Weekly_highscores">   
                <br><div id="icon"></div>            
                   <div id="weeklyLeaders">
@@ -172,8 +209,8 @@
                   </div>
                   <br>
                   <div class="row">
-                     <div class="col-sm-3"><button id="submitNewUser" type="submit" >Create</button></div>
-                     <div class="col-sm-3"><button id="clearmodel"  type="button" data-dismiss="modal">Close</button></div>
+                     <div class="col-md-3 col-sm-6"><button id="submitNewUser" type="submit" >Create</button></div>
+                     <div class="col-md-3 col-sm-6"><button id="clearmodel"  type="button" data-dismiss="modal">Close</button></div>
                   </div>
                </form>
             </div>
@@ -189,6 +226,7 @@
       <script>
          loadGames()
          loadScores()
+         getScoreSnapShot()
 
           
           
@@ -268,23 +306,31 @@ $(".dropbtn").click(function(){
            xhttp.send();                 
 }
 
-         
-         
-/*
-         
-         $(window).scroll(function (event) {
-             if($(window).scrollTop() > 250) {
-             	$("#h2tag").slideUp(700)
-             	$(".dropdown").slideUp(700)
+
+function getScoreSnapShot() {    
+
+           var xhttp;
+           if (window.XMLHttpRequest) {
+             xhttp = new XMLHttpRequest();
+             } else {
+             xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+           }
+           xhttp.onreadystatechange = function() {
+             if (this.readyState == 4 && this.status == 200) {
+               document.getElementById("scoreSnapshot").innerHTML = this.responseText;
              }
-             if($(window).scrollTop() == 0) {
-             	$("#h2tag").slideDown(700)
-             	$(".dropdown").slideDown(700)
-             }		
-             	
-         });        
-         */     
+           };
+           xhttp.open("POST", "Php_Scripts/myScoresTopScore.php", true);
+           xhttp.send();                 
+}
+     
          
+         
+
+	$('body').on('click','.moveCoursorToLogin',function(){
+		document.getElementById("loginEmail").focus();
+	}); 
+
          
       </script>
       <div id="snackbar"> <?php if(isset($_GET["loginmessage"])) echo $_GET["loginmessage"]; ?></div>

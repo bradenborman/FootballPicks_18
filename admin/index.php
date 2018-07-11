@@ -5,6 +5,28 @@
 	$dbname = "football_picks";
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	
+	
+		
+	  if(!isset($_GET["allowed"]))
+	  { 
+	 
+	  ?>
+	  					<script>
+    								var PasswordEntered = prompt("Admin Password: ", "PASSWORD");
+    								
+ 									
+ 			   										
+						</script>
+	 <?php 
+	 } else{
+	 
+	 	if($_GET["allowed"] != truee)
+	 		header('Location: https://pickemupsets.com/');
+	 }
+	  
+		
+			
+		
 			
 	$w = $conn->query("SELECT Game_Current_Week FROM `Game_Settings`");	
 	while ($row = mysqli_fetch_array($w))
@@ -57,12 +79,19 @@
 		if (!mysqli_query($conn, $sql))
   		 echo("Error description: " . mysqli_error($conn));
   		 else {		
-  			header('Location: http://pickemupsets.com/admin/');
+  			header('Location: https://pickemupsets.com/admin/index.php?allowed=truee');
 			exit();
 		}
 	}	
 	
-?>		</div>
+	
+
+?>	
+
+
+
+
+	</div>
 		<div class="col-md-4 text-center">
 		
 		<h2>Change week</h2>
@@ -89,6 +118,17 @@
   				<br><br>
   			<input type="submit">
 			</form>
+			
+			
+			<br>
+			
+			<h2>RESET GAME</h2><form action="../Php_Scripts/StartNewGame.php" method="Post">
+			 <input type="checkbox" name="restart" value="true">Reset:
+			 <input type="submit">
+			 </form>
+			
+			
+			
 		</div>
 		
 		
@@ -122,12 +162,7 @@
 
 
 	</div>
-	
-	<h2>Reset game: </h2>
-	<br>UPDATE `Games` SET `Game_Winner`= null,`Game_Team1_PickedCount`= 0,`Game_Team2_PickedCount`= 0 WHERE Game_ID > 0
-	<br> <br> Delete all picks in pickshistory
-	
-	
+		
 </div>
 
 
@@ -213,7 +248,7 @@ input:checked + .slider:before {
 }
 </style>
 </head>
-<body>
+<body onLoad="Load()">
 <script>
 $(".gameID").click(function(){
    $("#gameTxt").val($(this).text());
@@ -226,6 +261,18 @@ $(".team").click(function(){
    $("#gameTxt").val(id);
    $("#winnerTxt").val($(this).text());
 });
+
+function Load() {
+	if(PasswordEntered == "borm00")
+		window.location.assign("https://pickemupsets.com/admin/index.php?allowed=truee")
+	else
+		window.location.assign("https://pickemupsets.com/")
+}
+
 </script>
+
+
+
+
 </body>
 </html>

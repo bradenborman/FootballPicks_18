@@ -17,10 +17,17 @@ header {
 	top: 0;
 	z-index: 99;
 }
+    
+.info h1 {
+	font-family: 'Anton';
+}     
+
+    
          
 .info {
 	display: inline-block;
 }     
+
  
  
 .links {
@@ -35,16 +42,22 @@ header {
       font-weight: bold;
 }
 
-         
+ #contentL {
+	max-height: 900px;
+	overflow: scroll;
+	padding-top: 40px;
+  }
        
        
 #leaders {
 	font-family: 'Anton';
 	background-image: url("../images/clipboard.png");
-	min-height: 900px;
 	background-repeat: no-repeat;
-	padding:14%;
-	padding-top: 200px;
+	min-height: 1300px;
+         padding:14%;
+	padding-top: 160px;
+		
+	
 }     
        
 #leaders h2 {
@@ -58,7 +71,24 @@ header {
 	float:right; 
 	margin-top: 7px;
 	font-size: 28px;
+	
 }      
+    
+#contentL::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -66,9 +96,9 @@ header {
   padding: 10px;
   padding-bottom: 10px;
   // background-color: #dedede;
-	bottom: 0px;
-	background-image: url("bg.jpg");
-	 background-size: 100% 100%;
+bottom: 0px;
+background-image: url("bg.jpg");
+ background-size: 100% 100%;
   
 }
 
@@ -126,6 +156,18 @@ header {
 	display: inline-block;
 	text-align: right;
 	width: 95%;
-}     
+}   
+
+#leaders {
+	min-height: 1250px;
+
+  }
+    
+
+.tooltip-inner {
+           display: none;
+        }	
+	
+	  
          	
 }

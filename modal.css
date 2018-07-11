@@ -1,4 +1,3 @@
-
 .Mod-head {
 	position: absolute;		
 	top: -50px;
@@ -46,6 +45,38 @@
 .modal button {
 	background-color: #bfbfbf;
 }
+
+
+
+
+.modal button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  margin-right: 30px;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 
 .modal {
@@ -116,31 +147,6 @@
 	font-size: 1.5em;
 }
 
-#clearmodel {
-	width: 100%;
-	padding: 8px;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    background-color: #b1b1b1;
-}
-
-#clearmodel:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
-
- #submitNewUser {
-   	width: 100%;
-	padding: 8px;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    background-color: #b1b1b1;
-   }
-
-#submitNewUser:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
 
 
 .panel-group h2 {
@@ -149,7 +155,7 @@
 
 
 .row {
-	margin-top: 4px;
+	margin-top: 7px;
 }
 
 
