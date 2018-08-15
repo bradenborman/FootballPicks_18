@@ -4,6 +4,7 @@
 <title>Bortles SVG</title>
 <style>
 
+
 body {
 	background-color: #006778;
 	height: 100%;
@@ -33,7 +34,7 @@ body {
 
 
 svg {
-	width: 71%;
+	width: 83%;
 	fill: #D7A22A;
 }
 
@@ -44,7 +45,7 @@ svg {
 	position: fixed;
 	height: 300px;
 	width: 425px;
-	right: 100px;
+	right: 12%;
 	top: 100px;
 	overflow: auto;
 	border: 6px ridge #9F792C;
@@ -73,7 +74,6 @@ text-align: center;
 
 
 button {
-	margin: 20px;
    border: 2px solid #0a3c59;
    background: #3e779d;
    background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
@@ -95,6 +95,7 @@ button {
    font-family: helvetica, serif;
    text-decoration: none;
    vertical-align: middle;
+   margin: 30px;
    }
 button:hover {
 	cursor: pointer;
@@ -125,12 +126,144 @@ button:active {
    .color {
 	fill: #D7A22A;
    }
-   
-</style>
 
+
+@media screen and (max-width: 1400px) {
+
+
+body {
+	background-color: #006778;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.yes {
+  animation: yes .4s 6 alternate;
+}
+
+.no {
+  animation: no .3s 6 alternate;
+}
+
+@keyframes yes {
+  100% {
+    transform: skewY(2deg)
+  }
+}
+
+@keyframes no {
+  100% {
+    transform:rotateZ(-3deg);
+  }
+}
+
+
+svg {
+	width: 79%;
+	fill: #D7A22A;
+}
+
+
+
+#APP {
+	background-color: #D7A22A;
+	position: fixed;
+	height: 300px;
+	width: 375px;
+	right: 100px;
+	top: 100px;
+	overflow: auto;
+	border: 6px ridge #9F792C;
+	border-radius: 30px;
+}
+
+#header {
+
+	text-align: center;
+	font-size: 1.4em;
+	border-bottom: 6px ridge #9F792C;
+}
+
+#question {
+	margin: 15px;
+	   font-size: 1.7em;
+text-align: center;
+}
+
+
+#btns {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+
+button {
+   border: 2px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #06426c;
+   font-size: 1.5em;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   	margin: 20px;
+   }
+button:hover {
+	cursor: pointer;
+   border: 2px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 2px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #d7a32a;
+   }
+
+   .color {
+	fill: #D7A22A;
+   }
+  } 
+</style>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+<div class="container">
 <div id="APP">
 	<div id="header">
 		<h2>Blake Bortles's Qs</h2>
@@ -765,7 +898,7 @@ m77 -60 c3 -8 2 -61 -3 -117 -8 -92 -11 -102 -29 -102 -15 0 -21 8 -23 30 -2
 0 50 -58 50 -121 88 -129 76z"></path>
 </g>
 </svg>
-
+</div>
 
 <script>
 $(document).ready(function(){
